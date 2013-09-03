@@ -1,0 +1,10 @@
+.register {
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.register tr td:first{
+    text-align:right;
+    color:red;
+}
