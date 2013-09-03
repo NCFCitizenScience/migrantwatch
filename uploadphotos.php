@@ -105,7 +105,7 @@ if($_REQUEST['uploadphotos'] ){
 	$sql = "insert into migwatch_photos(sighting_id,user_id,photo_caption) values ('$sighting_id','$user_id','$photo_caption')";
 	mysql_query($sql);
 	$photo_id_new =  mysql_insert_id();
-        list($name,$ext) = explode('\.',$orgfile);
+        list($name,$ext) = explode('.',$orgfile);
 	$final_filename = hash('md5',$name) . "_" . $photo_id_new . "." . $ext;
 
         $sql = "update migwatch_photos set photo_filename = '$final_filename' where photo_id='$photo_id_new'";
