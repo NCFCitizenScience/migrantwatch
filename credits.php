@@ -1,0 +1,1 @@
+<div class='credits'>Design: <a href='mailto:pavithra@me.com' title='mail Pavithra'>Pavithra Sankaran</a>. MigrantWatch is a project of the Citizen Science Programme of <a title='National Center for Biological Sciences, Bangalore' href='http://ncbs.res.in'>NCBS</a> in association with <a href='http://indianbirds.in'>Indian Birds Journal</a></div>

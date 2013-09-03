@@ -1,0 +1,1 @@
+<? include("db.php"); include("main_includes.php"); ?>

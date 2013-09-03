@@ -1,0 +1,4 @@
+<?
+$uploadDir = 'image_uploads/';
+
+?>
